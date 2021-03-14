@@ -1,0 +1,5 @@
+Links = //h2[not(@class)]/a/@href
+Titulo = //div[@class="mb-auto"]/h2/a/text()
+Resumen = //div[@class="lead"]/p[not(@class)]/text()
+Cuerpo = //div[@class="html-content"]/p[not(@class)]/text()
+Autor = //div[@class="autorArticle"]/p[not(@class)]/text()
