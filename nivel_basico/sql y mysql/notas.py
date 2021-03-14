@@ -196,4 +196,16 @@ sum(if(year<19580,1,0)) as '<1950',
 sum(if(year<19580,0,1)) as '>1950'
 from books;
 
+=========================================================================================
+****para hacer backup***
+
+mysqldump -u root -p cursoplatzi 
+
+sin datos
+mysqldump -u root -p cursoplatzi -d
+
+enviar a un archivo
+mysqldump -u root -p cursoplatzi -d > squema.sql
+ 
+
 """
